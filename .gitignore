@@ -1,0 +1,34 @@
+# AVP vault files - NEVER commit these!
+*.enc
+.avp_vault*
+avp.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+.eggs/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets - NEVER commit these!
+.env
+*.env
+keys.json
+credentials.json
+secrets.json
+.keys.json
